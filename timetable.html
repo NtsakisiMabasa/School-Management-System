@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SchoolConnect | Timetable</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="dashboard-topbar">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">SC</span>
+SchoolConnect
+</a>
+
+<div class="topbar-right">
+
+<button class="notification-button">🔔</button>
+
+<a href="profile.html" class="top-profile">
+<div class="mini-avatar">S</div>
+<div>
+<strong>Student Name</strong>
+<small>Grade 12</small>
+</div>
+</a>
+
+<button class="dashboard-menu" id="dashboardMenu">☰</button>
+
+</div>
+
+</header>
+
+
+<div class="dashboard-layout">
+
+<aside class="sidebar" id="sidebar">
+
+<div class="sidebar-title">Student Portal</div>
+
+<a href="dashboard.html" class="sidebar-link">🏠 Dashboard</a>
+
+<a href="announcements.html" class="sidebar-link">📢 Announcements</a>
+
+<a href="resources.html" class="sidebar-link">📚 Resources</a>
+
+<a href="assignments.html" class="sidebar-link">📝 Assignments</a>
+
+<a href="timetable.html" class="sidebar-link active">📅 Timetable</a>
+
+<a href="messages.html" class="sidebar-link">💬 Messages</a>
+
+<div class="sidebar-divider"></div>
+
+<a href="profile.html" class="sidebar-link">👤 Profile</a>
+
+<a href="settings.html" class="sidebar-link">⚙️ Settings</a>
+
+<a href="index.html" class="sidebar-link logout">↪ Logout</a>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<div class="dashboard-heading">
+
+<div>
+
+<span class="hero-badge">WEEKLY SCHEDULE</span>
+
+<h1>My Timetable</h1>
+
+<p>
+Your classes and school activities for the week.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="week-selector">
+
+<button>←</button>
+
+<strong>
+17 August — 21 August 2026
+</strong>
+
+<button>→</button>
+
+</div>
+
+
+<div class="timetable-container">
+
+<table class="full-timetable">
+
+<thead>
+
+<tr>
+
+<th>Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>08:00</td>
+
+<td>
+<div class="class-box pink">
+<strong>Mathematics</strong>
+<small>Room 12</small>
+</div>
+</td>
+
+<td>
+<div class="class-box blue">
+<strong>English</strong>
+<small>Room 7</small>
+</div>
+</td>
+
+<td>
+<div class="class-box purple">
+<strong>Science</strong>
+<small>Lab 1</small>
+</div>
+</td>
+
+<td>
+<div class="class-box green">
+<strong>Geography</strong>
+<small>Room 9</small>
+</div>
+</td>
+
+<td>
+<div class="class-box pink">
+<strong>Mathematics</strong>
+<small>Room 12</small>
+</div>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>10:00</td>
+
+<td>
+<div class="class-box blue">
+<strong>English</strong>
+<small>Room 7</small>
+</div>
+</td>
+
+<td>
+<div class="class-box green">
+<strong>Geography</strong>
+<small>Room 9</small>
+</div>
+</td>
+
+<td>
+<div class="class-box pink">
+<strong>Mathematics</strong>
+<small>Room 12</small>
+</div>
+</td>
+
+<td>
+<div class="class-box purple">
+<strong>Science</strong>
+<small>Lab 1</small>
+</div>
+</td>
+
+<td>
+<div class="class-box blue">
+<strong>English</strong>
+<small>Room 7</small>
+</div>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>12:00</td>
+
+<td colspan="5" class="break-row">
+Lunch Break
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>13:00</td>
+
+<td>
+<div class="class-box purple">
+<strong>Science</strong>
+<small>Lab 1</small>
+</div>
+</td>
+
+<td>
+<div class="class-box pink">
+<strong>Mathematics</strong>
+<small>Room 12</small>
+</div>
+</td>
+
+<td>
+<div class="class-box blue">
+<strong>English</strong>
+<small>Room 7</small>
+</div>
+</td>
+
+<td>
+<div class="class-box green">
+<strong>Geography</strong>
+<small>Room 9</small>
+</div>
+</td>
+
+<td>
+<div class="class-box purple">
+<strong>Science</strong>
+<small>Lab 1</small>
+</div>
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

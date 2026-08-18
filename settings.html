@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SchoolConnect | Settings</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="dashboard-topbar">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">SC</span>
+SchoolConnect
+</a>
+
+<div class="topbar-right">
+
+<button class="notification-button">🔔</button>
+
+<a href="profile.html" class="top-profile">
+<div class="mini-avatar">S</div>
+<div>
+<strong>Student Name</strong>
+<small>Grade 12</small>
+</div>
+</a>
+
+<button class="dashboard-menu" id="dashboardMenu">☰</button>
+
+</div>
+
+</header>
+
+
+<div class="dashboard-layout">
+
+<aside class="sidebar" id="sidebar">
+
+<div class="sidebar-title">Student Portal</div>
+
+<a href="dashboard.html" class="sidebar-link">🏠 Dashboard</a>
+
+<a href="announcements.html" class="sidebar-link">📢 Announcements</a>
+
+<a href="resources.html" class="sidebar-link">📚 Resources</a>
+
+<a href="assignments.html" class="sidebar-link">📝 Assignments</a>
+
+<a href="timetable.html" class="sidebar-link">📅 Timetable</a>
+
+<a href="messages.html" class="sidebar-link">💬 Messages</a>
+
+<div class="sidebar-divider"></div>
+
+<a href="profile.html" class="sidebar-link">👤 Profile</a>
+
+<a href="settings.html" class="sidebar-link active">⚙️ Settings</a>
+
+<a href="index.html" class="sidebar-link logout">↪ Logout</a>
+
+</aside>
+
+
+<main class="dashboard-main">
+
+<div class="dashboard-heading">
+
+<div>
+
+<span class="hero-badge">ACCOUNT SETTINGS</span>
+
+<h1>Settings</h1>
+
+<p>
+Manage your account preferences.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="settings-grid">
+
+
+<section class="settings-card">
+
+<h2>Profile Information</h2>
+
+<p>Update your personal information.</p>
+
+
+<div class="form-group">
+
+<label>First Name</label>
+
+<input type="text" value="Student">
+
+</div>
+
+
+<div class="form-group">
+
+<label>Last Name</label>
+
+<input type="text" value="Name">
+
+</div>
+
+
+<div class="form-group">
+
+<label>Email Address</label>
+
+<input type="email" value="student@school.co.za">
+
+</div>
+
+
+<button class="btn btn-primary">
+Save Changes
+</button>
+
+</section>
+
+
+<section class="settings-card">
+
+<h2>Notifications</h2>
+
+<p>Choose what notifications you receive.</p>
+
+
+<div class="setting-option">
+
+<div>
+
+<strong>Announcements</strong>
+
+<small>Receive school announcements.</small>
+
+</div>
+
+<label class="switch">
+<input type="checkbox" checked>
+<span></span>
+</label>
+
+</div>
+
+
+<div class="setting-option">
+
+<div>
+
+<strong>Assignments</strong>
+
+<small>Get assignment reminders.</small>
+
+</div>
+
+<label class="switch">
+<input type="checkbox" checked>
+<span></span>
+</label>
+
+</div>
+
+
+<div class="setting-option">
+
+<div>
+
+<strong>Messages</strong>
+
+<small>Receive new message alerts.</small>
+
+</div>
+
+<label class="switch">
+<input type="checkbox" checked>
+<span></span>
+</label>
+
+</div>
+
+</section>
+
+
+<section class="settings-card">
+
+<h2>Security</h2>
+
+<p>Keep your account secure.</p>
+
+<button class="settings-action">
+🔑 Change Password
+</button>
+
+<button class="settings-action">
+🔐 Two-Factor Authentication
+</button>
+
+</section>
+
+
+<section class="settings-card danger-card">
+
+<h2>Account</h2>
+
+<p>Manage your SchoolConnect account.</p>
+
+<button class="settings-action danger">
+Deactivate Account
+</button>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
